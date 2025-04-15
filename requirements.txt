@@ -1,0 +1,25 @@
+# Core OCR Libraries
+pytesseract>=0.3.10
+easyocr>=1.7.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+
+# API and Web
+fastapi>=0.103.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+pydantic>=2.3.0
+
+# Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Optional: GPU Support
+# uncomment if you need GPU acceleration
+# torch>=2.0.0+cu118  # CUDA 11.8 version
